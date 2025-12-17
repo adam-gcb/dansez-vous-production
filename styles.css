@@ -35,7 +35,9 @@ body {
   left: 0px;
   top: 550px;
   height: auto;
-  margin-left:70%; }
+  margin-left: 1000px;
+}
+
 
 .container {
   position: relative ;}
@@ -59,6 +61,12 @@ body {
     margin: 0 auto;
 }
 
+.second-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
 .contact-form input,
 .contact-form textarea {
     padding: 10px;
@@ -68,7 +76,7 @@ body {
 
 .contact-form button {
     background-color:#DAA520;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -80,22 +88,21 @@ body {
 
 .contact-btn {
     display: inline-block;
-    padding: 30px 85px;   /* augmente la taille du bouton */
-    font-size: 22px;      /* augmente la taille du texte */
-    background-color: #DAA520; /* violet */
-    color: white;
+    padding: 30px 85px;
+    font-size: 22px;
+    background-color: #DAA520;
     border-radius: 10px;
     text-decoration: none;
 }
 
 .contact-btn:hover {
-    background-color: #DAA520; /* violet plus clair au survol */
+    background-color: #DAA520;
 }
 
 .back-btn {
     padding: 15px;
     font-size: 20px;
-    background-color: #DAA520; /* violet */
+    background-color: #DAA520;
     color: white;
     border: none;
     border-radius: 8px;
@@ -133,3 +140,18 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.image-main {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;   
+      flex-wrap: wrap;            
+      gap: 20px;        
+      padding: 20px;
+    }
+
+    .second-image {
+      max-width: 315px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;}
