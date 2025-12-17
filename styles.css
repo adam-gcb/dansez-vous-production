@@ -33,7 +33,7 @@ body {
   margin: 0 auto;
   position: absolute; 
   left: 0px;
-  top: 500px;
+  top: 550px;
   height: auto;
   margin-left:70%; }
 
@@ -42,7 +42,7 @@ body {
     
 .second-image {
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   left: 100px;
   width: 300px;
   height: auto; }
@@ -50,3 +50,44 @@ body {
   a {
     color: #00E5FF;
     text-decoration: none;}
+
+    .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #8a2be2;}
+
+.contact-btn {
+    display: inline-block;
+    padding: 30px 85px;   /* augmente la taille du bouton */
+    font-size: 22px;      /* augmente la taille du texte */
+    background-color: #6a0dad; /* violet */
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #8a2be2; /* violet plus clair au survol */
+}
