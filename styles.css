@@ -48,6 +48,5 @@ body {
   height: auto; }
 
   a {
-    color: #00E5FF; /* bleu clair très lisible sur noir/violet */
-    text-decoration: none; /* optionnel : enlève le soulignement */
-}
+    color: #00E5FF;
+    text-decoration: none;}
