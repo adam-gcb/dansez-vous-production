@@ -64,10 +64,10 @@ body {
     padding: 10px;
     border-radius: 5px;
     border: none;
-}
+    background-color:rgba(255, 255, 255, 0.35);}
 
 .contact-form button {
-    background-color: #6a0dad;
+    background-color:#DAA520;
     color: white;
     padding: 10px;
     border: none;
@@ -76,18 +76,60 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: #8a2be2;}
+    background-color: #DAA520;}
 
 .contact-btn {
     display: inline-block;
     padding: 30px 85px;   /* augmente la taille du bouton */
     font-size: 22px;      /* augmente la taille du texte */
-    background-color: #6a0dad; /* violet */
+    background-color: #DAA520; /* violet */
     color: white;
     border-radius: 10px;
     text-decoration: none;
 }
 
 .contact-btn:hover {
-    background-color: #8a2be2; /* violet plus clair au survol */
+    background-color: #DAA520; /* violet plus clair au survol */
+}
+
+.back-btn {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #DAA520; /* violet */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-btn:hover {
+  background-color: #DAA520}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 25px;        /* augmente la hauteur */
+  font-size: 25px;      /* augmente la taille du texte */
+  border-radius: 8px;   /* arrondit un peu plus */
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: #DAA520;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #DAA520;
+}
+
+.contact-title {
+    font-size: 50px;   /* augmente la taille du texte */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
 }
