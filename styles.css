@@ -46,3 +46,12 @@ body {
   left: 100px;
   width: 300px;
   height: auto; }
+
+  a {
+    color: #00E5FF; /* bleu clair très lisible sur noir/violet */
+    text-decoration: none; /* optionnel : enlève le soulignement */
+}
+
+a:hover {
+    color: #4FC3F7; /* un bleu un peu plus clair au survol */
+}
