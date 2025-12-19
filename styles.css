@@ -1,26 +1,16 @@
 body {
-  display: flex;               
-  flex-direction:column ; 
-  justify-content: center;         
-  align-items: center;    
-  height: 100vh;   
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  color: #333;
-  margin: 0;   
-  padding: 0;    
-  text-align: center; }
-   
-    .agrandir-texte {font-size: 25px;}
-
-body {
-  background: linear-gradient(to right, #6a1b9a, #000000);
-  color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a1b9a, #000000); /* Dégradé de fond */
+  color: white;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
-  height: 100vh;}
+}
     
 .container {
   position: relative ;}
@@ -49,8 +39,20 @@ body {
   width: 300px;
   height: auto; }
 
-  a {
-    color: #00E5FF;
+a {
+    color: #01ccff;
+    text-decoration: none;}
+
+    .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+p {
+    color: #ffffff;
     text-decoration: none;}
 
     .contact-form {
@@ -115,9 +117,9 @@ body {
 
 .contact-form input,
 .contact-form textarea {
-  padding: 25px;        /* augmente la hauteur */
-  font-size: 25px;      /* augmente la taille du texte */
-  border-radius: 8px;   /* arrondit un peu plus */
+  padding: 25px;
+  font-size: 25px;
+  border-radius: 8px;
 }
 
 .contact-form button {
@@ -135,23 +137,21 @@ body {
 }
 
 .contact-title {
-    font-size: 50px;   /* augmente la taille du texte */
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
 
 .image-main {
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;   
-      flex-wrap: wrap;            
-      gap: 20px;        
-      padding: 20px;
-    }
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;   
+  flex-wrap: wrap;            
+  gap: 20px;        
+  padding: 20px;}
 
-    .second-image {
-      max-width: 315px;
-      width: 100%;
-      height: auto;
-      border-radius: 8px;}
+.second-image {
+  max-width: 315px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;}
